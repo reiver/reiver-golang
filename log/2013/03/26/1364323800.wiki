@@ -1,0 +1,9 @@
+wiki/1
+
+§ Golang Complex Numbers
+
+⸺ by Charles Iliya Krempeaux
+
+⸺ published 2013-03-26T11:50:00-07:00
+
+**Go** has built-in support for complex numbers: ``complex64`` & ``complex128``.

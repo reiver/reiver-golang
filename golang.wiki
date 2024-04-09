@@ -21,3 +21,9 @@ A simple [[hello world]] program in **golang** looks like this:
  func main() {
  	fmt.Println("Hello world!")
  }
+
+§§ Logs
+
+Some things I have written about **golang**:
+
+• [[log/2013/03/26/1364323800]] Golang Complex Numbers
