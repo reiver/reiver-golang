@@ -1,0 +1,17 @@
+wiki/1
+
+§ Updating Golang Packages With go get
+
+⸺ by Charles Iliya Krempeaux
+
+⸺ published 2013-05-10T13:22:00-07:00
+
+Say you previously install a Go library with:
+
+ go get github.com/reiver/go-php
+
+Now imagine that that Go library gets updated.
+If you run that command again it will NOT update the library.
+To update it you need to use the ``-u`` switch, as in:
+
+ go get -u github.com/reiver/go-php
