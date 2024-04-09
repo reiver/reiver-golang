@@ -1,0 +1,19 @@
+wiki/1
+
+§ How To Get Assembley Language Version Of Golang Code
+
+⸺ by Charles Iliya Krempeaux
+
+⸺ published 2014-01-19T18:58:00-08:00
+
+You can get an assembly language (ASM) version of your Go code with a command like:
+
+ go build -gcflags -S
+
+As in:
+
+ go build -gcflags -S main.go otherfile.go
+
+(This is also sometimes called disassembling.)
+
+(H/T **Kamil Kisiel**)
