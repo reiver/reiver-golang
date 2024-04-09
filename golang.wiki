@@ -12,6 +12,9 @@ The **Go programming language** was influenced the //APL programming-language//,
 
 I have been programming in the **Go programming language** (**golang**) since **March 13, 2013**.
 
+Over that time I have created //hundreds// of open-source golang packages.
+Some of them are listed here: [[reiver-go]]
+
 §§ Hello World
 
 A simple [[hello world]] program in **golang** looks like this:
