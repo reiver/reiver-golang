@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8" />
+<title>reiver Go</title>
+</head>
+<body>
+<main>
+<h1>reiver Go</h1>
+<p>
+<strong>reiver Go</strong> is a list of <strong>golang</strong> libraries, software, and guides created by <strong>Charles Iliya Krempeaux</strong> (<strong>@reiver</strong>), for the <strong>Go programming language</strong>.
+</p>
+<section>
+<h2>Contents</h2>
+<ul>
+<li><a href="#binary-to-text-encoding">Binary-To-Text Encoding</a></li>
+<li><a href="#buffers">Buffers</a></li>
+<li><a href="#byte">Byte</a></li>
+<li><a href="#casting">Casting</a></li>
+<li><a href="#color">Color</a></li>
+<li><a href="#content-addressing">Content Addressing</a></li>
+<li><a href="#counting">Counting</a></li>
+<li><a href="#database">Database</a></li>
+<li><a href="#error-handler">Error Handler</a></li>
+<li><a href="#file-system">File System</a></li>
+<li><a href="#io">IO</a></li>
+<li><a href="#iterators">Iterators</a></li>
+<li><a href="#json">JSON</a></li>
+<li><a href="#logging">Logging</a></li>
+<li><a href="#maps">Maps</a></li>
+<li><a href="#monads">Monads</a></li>
+<li><a href="#money">Money</a></li>
+<li><a href="#natural-language-processing">Natural Language Processing</a></li>
+<li><a href="#networking">Networking</a>
+	<ul>
+	<li><a href="#finger">Finger</a></li>
+	<li><a href="#http">HTTP</a></li>
+	</ul>
+</li>
+<li><a href="#numbers">Numbers</a></li>
+<li><a href="#porting">Porting</a></li>
+<li><a href="#stream-processing">Stream Processing</a></li>
+<li><a href="#string-formatting">String Formatting</a></li>
+<li><a href="#supervision-tree">Supervision Tree</a></li>
+<li><a href="#testing">Testing</a></li>
+<li><a href="#twtxt">twtxt</a></li>
+<li><a href="#unicode">Unicode</a></li>
+<li><a href="#unique-ids">Unique IDs</a></li>
+<li><a href="#video">Video</a></li>
+</ul>
+</section>
+<section>
+<h2 id="binary-to-text-encoding">Binary-To-Text Encoding</h2>
+<ul>
+<li>
+<a href="https://github.com/reiver/go-bravo16">go-bravo16</a>
+—
+a more (human) safe base-16 binary-to-text encoding, and decoding; brave16 is an alternative to hexadecimal.
+</li>
+<li>
+<a href="https://github.com/reiver/go-caret">go-caret</a>
+—
+encodes, and decodes caret text (i.e., where ASCII control codes are in caret notation) into UTF-8 text (which may also be ASCII text).
+</li>
+</ul>
+</section>
+<section>
+<h2 id="buffers">Buffers</h2>
+<ul>
+<li>
+<a href="https://github.com/reiver/go-buffers">go-buffers</a>
+—
+provides betters buffers, and tools for working with buffers.
+</li>
+</ul>
+</section>
+<section>
+<h2 id="byte">Byte</h2>
+<ul>
+<li>
+<a href="https://github.com/reiver/go-byteliteral">go-byteliteral</a>
+—
+binary number literals for Go's byte type; including binary literals. note that Go 1.13 added binary literals, which makes this package obsolete.
+</li>
+</ul>
+</section>
+<section>
+<h2 id="casting">Casting</h2>
+<ul>
+<li>
+<a href="https://github.com/reiver/go-cast">go-cast</a>
+—
+tools for safely converting from one type to another, without information loss.
+</li>
+</ul>
+</section>
+<section>
+<h2 id="color">Color</h2>
+<ul>
+<li>
+<a href="https://github.com/reiver/go-palette2048">go-palette2048</a>
+—
+a type that represents a color palette of 256 RGBA color with 8-bits per color channel, for a total of 2048-bits altogether, that seamlessly works with Go's built-in <code>"image"</code>, <code>"image/color"</code>, and <code>"image/draw"</code> packages.
+	<ul>
+	<li><a href="https://github.com/reiver/go-palette2048_gb">go-palette2048_gb</a></li>
+	<li><a href="https://github.com/reiver/go-palette2048_greer">go-palette2048_greer</a></li>
+	<li><a href="https://github.com/reiver/go-palette2048_gruvbox">go-palette2048_gruvbox</a></li>
+	<li><a href="https://github.com/reiver/go-palette2048_html3">go-palette2048_html3</a></li>
+	<li><a href="https://github.com/reiver/go-palette2048_lospec500">go-palette2048_lospec500</a></li>
+	<li><a href="https://github.com/reiver/go-palette2048_nes">go-palette2048_nes</a></li>
+	<li><a href="https://github.com/reiver/go-palette2048_rkbv">go-palette2048_rkbv</a></li>
+	<li><a href="https://github.com/reiver/go-palette2048_solarized">go-palette2048_solarized</a></li>
+	<li><a href="https://github.com/reiver/go-palette2048_tia">go-palette2048_tia</a></li>
+	</ul>
+</li>
+<li>
+<a href="https://github.com/reiver/go-rgba32">go-rgba32</a>
+—
+a type that represents an RGBA color with 8-bits per color channel (stored as a slice rather than a struct), for a total of 32-bits altogether, that seamlessly works with Go's built-in <code>"image"</code>, <code>"image/color"</code>, and <code>"image/draw"</code> packages.
+</li>
+</ul>
+</section>
+<section>
+<h2 id="content-addressing">Content Addressing</h2>
+<ul>
+<li>
+<a href="https://github.com/reiver/go-hashuri">go-hashuri</a>
+—
+parses Hash URIs.
+</li>
+</ul>
+</section>
+<section>
+<h2 id="counting">Counting</h2>
+<ul>
+<li>
+<a href="https://github.com/reiver/go-mjrty">go-mjrty</a>
+—
+implementation of the mjrty algorithm; which igures out what is the majority of a sequence of items in a single pass, in O(n) time and O(1) space -- in linear time complexity and constant space complexity. this makes the mjrty algorithm suitable for some types of data streaming.
+</li>
+</ul>
+</section>
+<section>
+<h2 id="database">Database</h2>
+<ul>
+<li>
+<a href="https://github.com/reiver/go-pqerror">go-pqerror</a>
+—
+a helper library that provides constants for the Postgres Error Codes, to be used with the Golang Postgres driver.
+</li>
+<li>
+<a href="https://github.com/reiver/go-shunt">go-shunt</a>
+—
+enables you to create "middleware" for the the <code>"database/sql"</code> package.
+</li>
+</ul>
+</section>
+<section>
+<h2 id="error-handling">Error Handler</h2>
+</ul>
+<li>
+<a href="https://github.com/reiver/go-fck">go-fck</a>
+—
+tools to create and manipulate errors. one thing to notice is that <code>fck.Error</code> errors can be a Go <code>const</code>; this can be considered a replacement for <code>errors.New()</code> and <code>fmt.Errorf()</code>
+</li>
+<li>
+<a href="https://github.com/reiver/go-errhttp">go-errhttp</a>
+—
+provides errors that make dealing with HTTP response errors easier.
+</li>
+<li>
+<a href="https://github.com/reiver/go-manyerrors">go-manyerrors</a>
+—
+an error type that contains a list of errors.
+</li>
+<li>
+<a href="https://github.com/reiver/go-pqerror">go-pqerror</a>
+—
+a helper library that provides constants for the Postgres Error Codes, to be used with the Golang Postgres driver.
+</li>
+</ul>
+<h2 id="file-system">File System</h2>
+<ul>
+<li>
+<a href="https://github.com/reiver/go-strfs">go-strfs</a>
+—
+provides a virtual file-system, where a fs.File can be created from a Go string.
+</li>
+</ul>
+</section>
+<section>
+<h2 id="io">IO</h2>
+<ul>
+<li>
+<a href="https://github.com/reiver/go-iolsep">go-iolsep</a>
+—
+provides a limited <code>io.ReadCloser</code> that reads a single line from an <code>io.Reader</code>.
+</li>
+<li>
+<a href="https://github.com/reiver/go-iopsep">go-iopsep</a>
+—
+provides a limited <code>io.ReadCloser</code> that reads a single paragraph from an <code>io.Reader</code>.
+</li>
+<li>
+<a href="https://github.com/reiver/go-peek">go-peek</a>
+—
+provides tools to peek at input.
+</li>
+<li>
+<a href="https://github.com/reiver/go-skip">go-skip</a>
+—
+provides tools for skipping leading input.
+</li>
+</ul>
+</section>
+<section>
+<h2 id="iterators">Iterators</h2>
+<ul>
+<li>
+<a href="https://github.com/reiver/go-iter">go-iter</a>
+—
+provides tools for creating, normalizing, and working with iterators.
+</li>
+</ul>
+</section>
+<section>
+<h2 id="json">JSON</h2>
+<ul>
+<li>
+<a href="https://github.com/reiver/go-jsonio">go-jsonio</a>
+—
+tools for working with JSON I/O. this supplements Go's built-in <code>"encoding/json"</code> package.
+</li>
+</ul>
+</section>
+<section>
+<h2 id="logging">Logging</h2>
+<ul>
+<li>
+<a href="https://github.com/reiver/go-log">go-log</a>
+—
+structured and formatted logging.
+</li>
+<li>
+<a href="https://github.com/reiver/go-loggers">go-loggers</a>
+—
+useful tools for dealing with loggers.
+</li>
+</ul>
+</section>
+<section>
+<h2 id="maps">Maps</h2>
+<ul>
+<li>
+<a href="https://github.com/reiver/go-mapstringinterface">go-mapstringinterface</a>
+—
+tools for working with Go's <code>map[string]interface{}</code> type.
+</li>
+</ul>
+</section>
+<section>
+<h2 id="monads">Monads</h2>
+<ul>
+<li>
+<a href="https://github.com/reiver/go-opt">go-opt</a>
+—
+implements an optional-type, which is also know as, a option-type, and a maybe-type.
+</li>
+</ul>
+</section>
+<section>
+<h2 id="money">Money</h2>
+<ul>
+<li>
+<a href="https://github.com/reiver/go-money">go-money</a>
+—
+deals with money in a type safe way, including parsing from strings.
+</li>
+</ul>
+</section>
+<section>
+<h2 id="natural-language-processing">Natural Language Processing</h2>
+<ul>
+<li>
+<a href="https://github.com/reiver/go-porterstemmer">go-porterstemmer</a>
+—
+a native Go clean room implementation of the Porter Stemming algorithm.
+</li>
+</ul>
+</section>
+<section>
+<h2 id="networking">Networking</h2>
+<ul>
+<li>
+<a href="https://github.com/reiver/go-hg">go-hg</a>
+—
+provides ☿ Mercury Protocol client and server implementations.
+	<ul>
+	<li>
+	<a href="https://github.com/reiver/hydrargyrum">hydrargyrum</a>
+	—
+	a  ☿ Mercury Protocol server that uses <strong>go-hg</strong>
+	</li>
+	</ul>
+</li>
+<li>
+<a href="https://github.com/reiver/go-telnet">go-telnet</a>
+—
+TELNET and TELNETS client and server implementations, in a style similar to the <code>"net/http"</code> library that is part of the Go standard library, including support for "middleware"; TELNETS is secure TELNET, with the TELNET protocol over a secured TLS (or SSL) connection.
+</li>
+</ul>
+<section>
+<h3 id="finger">Finger</h3>
+<ul>
+<li>
+<a href="https://github.com/reiver/go-finger">go-finger</a>
+—
+implements the finger protocol.
+</li>
+</ul>
+</section>
+<section>
+<h3 id="http">HTTP</h3>
+<ul>
+<li>
+<a href="https://github.com/reiver/go-errhttp">go-errhttp</a>
+—
+provides errors that make dealing with HTTP response errors easier.
+</li>
+<li>
+<a href="https://github.com/reiver/go-httprequestpath">go-httprequestpath</a>
+—
+provides tools for getting the <em>path</em> from an <code>http.Request</code>.
+</li>
+<li>
+<a href="https://pkg.go.dev/github.com/reiver/go-modhandler">go-modhandler</a>
+—
+deals with conditional GETs by sending out a "Last-Modified" HTTP response header, and properly dealing with a "If-Modified-Since" HTTP request header.
+</li>
+<li>
+<a href="https://github.com/reiver/go-netfield">go-netfield</a>
+—
+provides tools for parsing "net fields" — i.e., the type of fields found in HTTP headers & trailers, as well as SMTP headers.
+</li>
+<li>
+<a href="https://github.com/reiver/go-netln">go-netln</a>
+—
+provides tools for parsing "net lines" — i.e., lines that end with a <code>"\r\n"</code>.
+</li>
+</ul>
+</section>
+</section>
+<section>
+<h2 id="numbers">Numbers</h2>
+<ul>
+<li>
+<a href="https://github.com/reiver/go-numeric">go-numeric</a>
+—
+</li>
+</ul>
+</section>
+<section>
+<h2 id="porting">Porting</h2>
+<ul>
+<li>
+<a href="https://github.com/reiver/go-php">go-php</a>
+—
+implements functions and classes familiar to PHP developrs in Go.
+</li>
+</ul>
+</section>
+<section>
+<h2 id="stream-processing">Stream Processing</h2>
+<ul>
+<li>
+<a href="https://github.com/reiver/go-mjrty">go-mjrty</a>
+—
+implementation of the mjrty algorithm; which igures out what is the majority of a sequence of items in a single pass, in O(n) time and O(1) space -- in linear time complexity and constant space complexity. this makes the mjrty algorithm suitable for some types of data streaming.
+</li>
+</ul>
+</section>
+<section>
+<h2 id="string-formatting">String Formatting</h2>
+<ul>
+<li>
+<a href="https://github.com/reiver/go-stringcase">go-stringcase</a>
+—
+makes it so you can convert strings to different casing styles: lower case, UPPER CASE, Title Case, camelCase, PascalCase, snake_case, CONST_CASE, property-case, Header-Case.
+</li>
+<li>
+<a href="https://github.com/reiver/go-tmpl">go-tmpl</a>
+—
+provides templating capabilities.
+</li>
+</ul>
+</section>
+<section>
+<h2 id="supervision-tree">Supervision Tree</h2>
+<ul>
+<li>
+<a href="https://github.com/reiver/go-retoil">go-retoil</a>
+—
+provides simple functionality for restarting toilers (i.e., workers).
+</li>
+<li>
+<a href="https://github.com/reiver/go-toil">go-toil</a>
+—
+provides simple functionality for managing toilers (i.e., workers).
+</li>
+<li>
+<a href="https://github.com/reiver/go-toilfork">go-toilfork</a>
+—
+provides simple functionality for managing a group of toilers (i.e., workers) where each toiler in the group is basically the "same" toiler.
+</li>
+</ul>
+</section>
+<section>
+<h2 id="testing">Testing</h2>
+<ul>
+<li>
+<a href="https://github.com/reiver/go-arbitrary">go-arbitrary</a>
+—
+provides tools for generating arbitrary data; useful for testing and placeholder data.
+</li>
+<li>
+<a href="https://github.com/reiver/go-shunt">go-shunt</a>
+—
+enables you to create "middleware" for the the <code>"database/sql"</code> package.
+</li>
+</ul>
+</section>
+<section>
+<h2 id="twtxt">twtxt</h2>
+<ul>
+<li>
+<a href="https://github.com/reiver/go-twtxt">go-twtxt</a>
+—
+implements encoding and decoding of the twtxt data format; which is used for creating feeds that makes up a decentralized micro-blogging social network.
+<li>
+</ul>
+</section>
+<section>
+<h2 id="unicode">Unicode</h2>
+<ul>
+<li>
+<a href="https://github.com/reiver/go-peek">go-peek</a>
+—
+provides tools to peek at input, such as peek.PeekRune(), which lets you peek at the next Unicode character.
+</li>
+<li>
+<a href="https://github.com/reiver/go-utf8">go-utf8</a>
+—
+implements encoding and decoding of UTF-8, for the Go programming language; this package is meant to be a replacement for Go's built-in <code>"unicode/utf8"</code> package.</li>
+</li>
+<li>
+<a href="https://github.com/reiver/go-whitespace">go-whitespace</a>
+—
+A small library for dealing with whitespace; note that this Go library accounts for all 26 UNICODE whitespace characters (and not just the standard ASCII ones), as well as accounts for all 7 UNICODE mandatory break characters.
+</li>
+</ul>
+</section>
+<section>
+<h2 id="unique-ids">Unique IDs</h2>
+<ul>
+<li>
+<a href="https://github.com/reiver/go-xim">go-xim</a>
+—
+quazi‐ monotonically‐increasing unique‐identifiers, whose serialized form are safe to use as file‐names, and directory‐names, and where lexical-ordering of the xim-id (under Unicode & ASCII) is in-practice also temporal-ordering of the xim-id (almost all of the time)
+	<ul>
+	<li>
+	<a href="https://github.com/reiver/xim-id">xim-id</a>
+	—
+	a program using <strong>go-xim</strong>
+	</li>
+	<ul>
+</li>
+</ul>
+</section>
+<section>
+<h2 id="video">Video</h2>
+<ul>
+<li>
+<a href="https://pkg.go.dev/github.com/reiver/go-fourcc">go-fourcc</a>
+—
+a Go implementation of FOURCC (four character code) (4CC) identifiers for a video codecs, compression formats, colors, and pixel format used in media files.
+</li>
+</ul>
+</section>
+</main>
+</html>
