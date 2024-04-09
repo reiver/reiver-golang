@@ -22,6 +22,8 @@ A simple [[hello world]] program in **golang** looks like this:
  	fmt.Println("Hello world!")
  }
 
+I have been programming in the **Go programming language** (**golang**) since **March 13, 2013**.
+
 §§ Logs
 
 Some things I have written about **golang**:
