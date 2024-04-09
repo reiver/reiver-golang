@@ -10,6 +10,8 @@ The **Go programming language** has syntax similar to the //AWK programming-lang
 
 The **Go programming language** was influenced the //APL programming-language//, the //C programming-language//, the //Oberon-2 programming-language//, the //Pascal programming-language//, the //Modula programming-language//, the //Modula-2 programming-language//, and others.
 
+I have been programming in the **Go programming language** (**golang**) since **March 13, 2013**.
+
 §§ Hello World
 
 A simple [[hello world]] program in **golang** looks like this:
@@ -21,8 +23,6 @@ A simple [[hello world]] program in **golang** looks like this:
  func main() {
  	fmt.Println("Hello world!")
  }
-
-I have been programming in the **Go programming language** (**golang**) since **March 13, 2013**.
 
 §§ Logs
 
