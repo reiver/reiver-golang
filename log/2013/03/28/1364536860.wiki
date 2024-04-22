@@ -6,14 +6,12 @@ wiki/1
 
 ⸺ published 2013-03-28T23:01:00-07:00
 
- package main
- 
- import (
- 	"fmt"
- )
- 
- func main() {
- 
- 	fmt.Printf("Hello world!\n")
- 
- }
+	package main
+	
+	import (
+		"fmt"
+	)
+	 
+	func main() {
+		fmt.Printf("Hello world!\n")
+	}
