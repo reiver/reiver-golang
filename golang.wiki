@@ -6,7 +6,9 @@ wiki/1
 
 The **Go programming language**, also known as **golang**, is a [[programming-language]] that had its start in the year 2007 but first appeared in the year 2009.
 
-The **Go programming language** has syntax similar to the //AWK programming-language//, the //C programming-language//, the //C++ programming-language//, the //C# programming-language//, the //Dart programming-language//, the //Java programming language//, the //JavaScript programming language//, the //Perl programming-language//, the //PHP programming//, the //Ruby programming-language//, the //Rust programming-language//, the //Swift programming-language//, the //V programming-language//, and others in C-family of programming-languages.
+The **Go programming language** has syntax similar to //programming-languages// similar in syntax to the //C programming-language//.
+
+I.e., the  **Go programming language** has syntax similar to the //AWK programming-language//, the //C programming-language//, the //C++ programming-language//, the //C# programming-language//, the //Dart programming-language//, the //Java programming language//, the //JavaScript programming language//, the //Perl programming-language//, the //PHP programming//, the //Ruby programming-language//, the //Rust programming-language//, the //Swift programming-language//, the //V programming-language//, and others in C-family of programming-languages.
 
 The **Go programming language** was influenced the //APL programming-language//, the //C programming-language//, the //Oberon-2 programming-language//, the //Pascal programming-language//, the //Modula programming-language//, the //Modula-2 programming-language//, and others.
 
@@ -17,15 +19,15 @@ Some of them are listed here: [[reiver-go]]
 
 §§ Hello World
 
-A simple [[hello world]] program in **golang** looks like this:
+A simple [[hello-world]] program in **golang** looks like this:
 
- package main
- 
- import "fmt"
- 
- func main() {
- 	fmt.Println("Hello world!")
- }
+	package main
+	 
+	import "fmt"
+	
+	func main() {
+		fmt.Println("Hello world!")
+	}
 
 §§ Logs
 
