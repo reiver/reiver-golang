@@ -33,9 +33,4 @@ A simple [[hello-world]] program in **golang** looks like this:
 
 Some things I have written about **golang**:
 
-• [[log/2013/03/26/1364323800]] Golang Complex Numbers
-• [[log/2013/03/28/1364536860]] Golang Hello World
-• [[log/2013/04/26/1367040840]] Golang string To []byte
-• [[log/2013/05/10/1368217320]] Updating Golang Packages With go get
-• [[log/2014/01/19/1390186680]] How To Get Assembley Language Version Of Golang Code
-• [[log/2021/11/08/1636430260]] GOPROXY=direct go get
+• [[golang/logs]]
